@@ -1,17 +1,13 @@
 package fr.ynov.rustguide;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,8 +19,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import java.util.List;
-
 public class MainActivity2 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -33,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity
     String[] articleDescriptions;
     String[] buttonText;
     int [] images = {R.drawable.rustmenu, R.drawable.header, R.drawable.dev96, R.drawable.accueil2, R.drawable.entre_bouton,R.drawable.accueil3};
+
     private Button access_guide1;
     private Button access_guide2;
     private Button detail_article_button;
@@ -181,7 +176,7 @@ class AdapterMain extends ArrayAdapter<String>{
     String[] buttonArray;
 
     AdapterMain(Context c,String[] articleTitles, int imgs[], String[] desc, String[] button){
-        super(c,R.layout.single_row_test,R.id.textView4, articleTitles);
+        super(c,R.layout.single_row_test,R.id.articleTitle, articleTitles);
         this.context = c;
         this.images = imgs;
         this.titleArray = articleTitles;
@@ -191,23 +186,56 @@ class AdapterMain extends ArrayAdapter<String>{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
-        LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = inflater.inflate(R.layout.single_row_test, parent, false);
-        TextView myTitle = (TextView)row.findViewById(R.id.textView4);
-        ImageView myImage =(ImageView)row.findViewById(R.id.imageView2);
-        TextView myDescription = (TextView)row.findViewById(R.id.textView5);
-        Button myButton = (Button)row.findViewById(R.id.button);
-
-        myImage.setImageResource(images[position]);
-        myTitle.setText(titleArray[position]);
-        myDescription.setText(descriptionArray[position]);
-        myButton.setText(buttonArray[position]);
-
-        row.setBackgroundColor(Color.parseColor("#2a2a2a"));
 
 
-        return  row;
+        ArticleCell cell;
+
+
+       if(convertView == null){
+           cell = new ArticleCell();
+
+           LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+           convertView = inflater.inflate(R.layout.single_row_test, parent, false);
+
+           cell.title = (TextView)convertView.findViewById(R.id.articleTitle);
+           cell.articleImage = (ImageView)convertView.findViewById(R.id.articleImage);
+           cell.description = (TextView)convertView.findViewById(R.id.articleDescription);
+           cell.button = (Button)convertView.findViewById(R.id.articleButton);
+
+           try{
+               convertView.setTag(cell);
+           }catch (NullPointerException ie){
+               ie.getMessage();
+           }
+
+       }else{
+           cell = (ArticleCell)convertView.getTag();
+       }
+
+
+
+        cell.articleImage.setImageResource(images[position]);
+        cell.title.setText(titleArray[position]);
+        cell.description.setText(descriptionArray[position]);
+        cell.button.setText(buttonArray[position]);
+
+
+        try{
+            convertView.setBackgroundColor(Color.parseColor("#2a2a2a"));
+        }catch (NullPointerException ie){
+            ie.getMessage();
+        }
+        return  convertView;
     }
+
+    public class ArticleCell {
+
+        public TextView title;
+        public ImageView articleImage;
+        public TextView description;
+        public Button button;
+    }
+
 }
 
 

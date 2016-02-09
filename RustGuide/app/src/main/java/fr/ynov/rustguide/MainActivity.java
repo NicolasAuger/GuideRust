@@ -155,8 +155,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_weapon) {
-            Intent i = new Intent(MainActivity.this, MainActivity2.class);
-            startActivity(i);
+
         } else if (id == R.id.nav_resource) {
 
         } else if (id == R.id.nav_ammunition) {
@@ -169,8 +168,10 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_a_propos) {
 
+        } else if (id == R.id.nav_more){
+            Intent i = new Intent(MainActivity.this, MainActivity2.class);
+            startActivity(i);
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

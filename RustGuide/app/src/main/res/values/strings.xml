@@ -1,5 +1,22 @@
 <resources>
 
+    <!-- Partie dédiée aux textes layout glissant de gauche -->
+    <string name="en_tete_layout_gauche1">Guide Rust</string>
+    <string name="en_tete_layout_gauche2">Tout ce qu"'il faut savoir sur Rust</string>
+    <string name="about_rust">A propos de Rust</string>
+
+    <string name="armes">Armes</string>
+    <string name="resource">Ressources</string>
+    <string name="ammunition">Munitions</string>
+    <string name="tools">Outils</string>
+
+    <string name="map">La carte</string>
+    <string name="description">Description du jeu</string>
+    <string name="about_us">A propos de nous</string>
+
+    <string name="more">En plus...</string>
+    <string name="listview_version">Version listview/adapter</string>
+
     <!-- Partie dédiée aux en-têtes de pages (barre rouge du haut) -->
     <string name="app_name">Rust Guide</string>
     <string name="video_survie">Vidéo - Survie Basique </string>
@@ -37,6 +54,8 @@
 
    <!-- Copyright -->
     <string name="copyright">© Copyright - Guide Rust 2016"</string>
+    <string name="developpeur">Nicolas / Lucas / Adrien  / Dylan \n\nVersion <b>1.0</b></string>
+    <string name="join">Rejoignez la communauté Rust sur Steam</string>
 
     <!-- Partie dédiée au guide sur la survie (le premier) ********************************************************************************************************** -->
     <!-- Intro et partie 0 -->
@@ -60,22 +79,23 @@
     
     <!-- Partie test conseil du prof listView as articles *********************************************************************************************************** -->
 
-    <string name="main2">Test horrible mais qui marche peut etre</string>
+    <string name="main2">ListView/Adapter (non bindée)</string>
     <string-array name="titles">
-        <item></item>
+        <item>Bienvenue sur GuideRust</item>
         <item>Le site officiel de Rust - rustplay.com</item>
         <item>#DevBlog 96 - Optimisations graphiques</item>
         <item>La survie dans Rust - Youtube</item>
         <item>La construction dans Rust - Youtube</item>
-        <item></item>
+        <item>Rejoignez la communauté Rust sur Steam</item>
+
     </string-array>
     <string-array name="descriptions">
-        <item></item>
+        <item>Découvrez des guides complets en vidéos ou en image, accéder au site depuis votre mobile plus facilement et restez à jour !</item>
         <item>Découvrez toutes les nouveautés du jeu Rust, les mises à jours, les forums de la communauté, les fan arts et bien d"'autres encore sur le site officiel dédié au jeu :\n\n<b>http://playrust.com</b>.</item>
         <item>Dans ce nouveau DebBlog n°96, nous pouvons tout d"'abord trouver <b>une optimisation graphique des dungeons</b>.\n\nDe nouveaux items voient aussi le jour comme <b>la lampe murale</b>, mais aussi de nouveaux items corporels.</item>
         <item>Vidéo Youtube de la chaine <b>JosInGame</b>, vous apprendrez ici comment survivre à votre première nuit dans le jeu mais aussi comment <b>bien débuter</b></item>
         <item>Vidéo Youtube de la chaine <b>JosInGame</b>, cette fois-ci vous apprendrez comment construire votre première maison mais aussi comment <b>optimiser votre abris</b> pour le rendre moins vulnérable aux raids</item>
-        <item>© Copyright - Guide Rust 2016</item>
+        <item>Nicolas / Lucas / Adrien  / Dylan \n\nVersion <b>1.0</b></item>
     </string-array>
     <string-array name="buttons">
         <item>Accéder à notre guide complet</item>
@@ -83,7 +103,7 @@
         <item>Voir cet article</item>
         <item>Accéder au guide de survie en video</item>
         <item>Accéder au guide de construction en video</item>
-        <item></item>
+        <item>© Copyright - Guide Rust 2016</item>
     </string-array>
 
     <!-- Fin de partie du test *********************************************************************************************************************************** -->

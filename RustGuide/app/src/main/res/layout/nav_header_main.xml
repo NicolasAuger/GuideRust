@@ -23,13 +23,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Guide Rust"
+        android:text="@string/en_tete_layout_gauche1"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tout ce qu'il faut savoir sur Rust" />
+        android:text="@string/en_tete_layout_gauche2" />
 
 </LinearLayout>

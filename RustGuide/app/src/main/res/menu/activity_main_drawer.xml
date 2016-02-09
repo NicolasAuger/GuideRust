@@ -5,35 +5,45 @@
         <item
             android:id="@+id/nav_weapon"
             android:icon="@drawable/weapon"
-            android:title="Armes" />
+            android:title="@string/armes" />
         <item
             android:id="@+id/nav_resource"
             android:icon="@drawable/resource"
-            android:title="Ressources" />
+            android:title="@string/resource" />
         <item
             android:id="@+id/nav_ammunition"
             android:icon="@drawable/ammunition"
-            android:title="Munitions" />
+            android:title="@string/ammunition" />
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/tools"
-            android:title="Outils" />
+            android:title="@string/tools" />
     </group>
 
-    <item android:title="A propos de Rust">
+    <item android:title="@string/about_rust">
         <menu>
             <item
                 android:id="@+id/nav_minimap"
                 android:icon="@drawable/minimap"
-                android:title="La carte" />
+                android:title="@string/map" />
             <item
                 android:id="@+id/nav_game_description"
                 android:icon="@drawable/game"
-                android:title="Description du jeu" />
+                android:title="@string/description" />
             <item
                 android:id="@+id/nav_a_propos"
                 android:icon="@drawable/a_propos"
-                android:title="A propos de nous" />
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/nav_more"
+                android:icon="@drawable/listview"
+                android:title="@string/listview_version" />
+
         </menu>
     </item>
 
