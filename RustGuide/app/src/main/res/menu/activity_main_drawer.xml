@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weapon"
+            android:icon="@drawable/weapon"
+            android:title="Armes" />
+        <item
+            android:id="@+id/nav_resource"
+            android:icon="@drawable/resource"
+            android:title="Ressources" />
+        <item
+            android:id="@+id/nav_ammunition"
+            android:icon="@drawable/ammunition"
+            android:title="Munitions" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/tools"
+            android:title="Outils" />
+    </group>
+
+    <item android:title="A propos de Rust">
+        <menu>
+            <item
+                android:id="@+id/nav_minimap"
+                android:icon="@drawable/minimap"
+                android:title="La carte" />
+            <item
+                android:id="@+id/nav_game_description"
+                android:icon="@drawable/game"
+                android:title="Description du jeu" />
+            <item
+                android:id="@+id/nav_a_propos"
+                android:icon="@drawable/a_propos"
+                android:title="A propos de nous" />
+        </menu>
+    </item>
+
+</menu>

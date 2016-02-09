@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Partie dédiée aux en-têtes de pages (barre rouge du haut) -->
+    <string name="app_name">Rust Guide</string>
+    <string name="video_survie">Vidéo - Survie Basique </string>
+    <string name="video_build">Vidéo - Construction </string>
+    <string name="devblog95">#96 Dev Blog - Rust </string>
+    <string name="guidecomplet">Guide Complet - Rust</string>
+    <string name="site_officiel_header">Site Officiel - Rust</string>
+
+    <!-- Partie dédiée au site officiel de Rust -->
+    <string name="site_officiel_button">Accéder au site officiel de Rust</string>
+    <string name="site_officiel_title">Le site officiel de Rust - rustplay.com</string>
+    <string name="site_officiel_description">Découvrez toutes les nouveautés du jeu Rust, les mises à jours, les forums de la communauté, les fan arts et bien d"'autres encore sur le site officiel dédié au jeu :\n\n<b>http://playrust.com</b>.</string>
+
+    <!-- Partie dédiée au guide complet de l'application -->
+    <string name="guidecomplet_acces">Accéder à notre guide complet</string>
+
+    <!-- Partie dédiée au dernier devblog -->
+    <string name="devblog_title">#DevBlog 96 - Optimisations graphiques</string>
+    <string name="devblog_description_courte">Dans ce nouveau DebBlog n°96, nous pouvons tout d"'abord trouver <b>une optimisation graphique des dungeons</b>.\n\nDe nouveaux items voient aussi le jour comme <b>la lampe murale</b>, mais aussi de nouveaux items corporels.</string>
+    <string name="detail_article">Voir cet article</string>
+
+    <!-- Partie dédiée aux pages de vidéo youtube -->
+    <string name="guidevideo1_title">La survie dans Rust - Youtube</string>
+    <string name="guidevideo2_title">La construction dans Rust - Youtube</string>
+    <string name="guidevideo1_description">Vidéo Youtube de la chaine <b>JosInGame</b>, vous apprendrez ici comment survivre à votre première nuit dans le jeu mais aussi comment <b>bien débuter</b></string>
+    <string name="guidevideo2_description">Vidéo Youtube de la chaine <b>JosInGame</b>, cette fois-ci vous apprendrez comment construire votre première maison mais aussi comment <b>optimiser votre abris</b> pour le rendre moins vulnérable aux raids</string>
+
+    <string name="guidevideo_titre">Guide Rust - En Video</string>
+    <string name="guidevideo1">#1 Survivre en milieu hostile</string>
+    <string name="guidevideo1_access">Accéder au guide de survie en video</string>
+    <string name="guidevideo2">#2 Construire votre premier abris</string>
+    <string name="guidevideo2_access">Accéder au guide de construction en video</string>
+    <string name="fullscreen">Voir en plein écran</string>
+    <string name="back">Retour</string>
+
+   <!-- Copyright -->
+    <string name="copyright">© Copyright - Guide Rust 2016"</string>
+
+    <!-- Partie dédiée au guide sur la survie (le premier) ********************************************************************************************************** -->
+    <!-- Intro et partie 0 -->
+    <string name="presentation_guide1">Voici la première partie du guide complet qui débutera avec votre première apparition dans le jeu, et se cloturera avant le début de la fabrication de votre première maison !\nVous-y apprendrez comment bien démarrer le jeu et surtout comment survivre aux premières hostilités qui vous attendent</string>
+    <string name="guidecomplet_title0">0. Les deux trois choses à savoir sur Rust</string>
+    <string name="texte_guide1_part0">Utiliser un objet dans la barra d"'action : Appuyer sur le numéro correspondant, appuyer une nouvelle fois pour le cacher.\nInterargir avec un objet : Appuyer sur la touche E.\nOuvrir l'inventaire : Appuyer sur la touche "Tab".</string>
+
+    <!-- Partie 1 -->
+    <string name="guidecomplet_title1">1. Votre première apparition</string>
+    <string name="texte_guide1_part1">Vous apparaissez avec <b>une torche</b> et <b>un caillou</b>*.\n* Variable suivant le serveur.\n\nLa torche sert à vous éclairer, frapper en cas d"'hostilité, et le cailloux vous sert pour tout le reste !\n\nEn premier lieu faites un petit tour afin de voir s’il n’y a pas de population hostile dans les parages (joueurs ou animaux). Et tenter de trouver une zone plus ou moins abondante en ressources (roche, bois, animaux).</string>
+
+    <!-- Partie 2 -->
+    <string name="guidecomplet_title2">2. Premiers crafts et premiers farms</string>
+    <string name="texte_guide1_part2_1">La toute première chose que vous devez faire est de récolter <b>du wood (bois)</b> ainsi que <b>de la stone (pierre)</b>. Pour cela munissez vous de votre cailloux de départ et diriger vous vers un arbre ou une roche, puis cliquez avec votre souris (clic gauche) afin de commencer à récolter des ressources dans votre inventaire.</string>
+    <string name="texte_guide1_part2_2">Les objets collectés peuvent être observés directement à l"’aide des info-bulles qui apparaissent en bas à droit de l"’écran,juste au dessus de vos barres d"'états vitales.\nElles sont aussi visible dans votre inventaire (tapez sur la touche "<b>Tab</b>") Mais tout d'abord, voyons de plus près cet inventaire !</string>
+    <string name="texte_guide1_part2_3">Une fois que vous avez récolté suffisament <b>de wood et de stones</b> à l"'aide de <b>votre caillou</b>, fabriquez vous dans un premier temps <b>une wooden spear</b>, <b>une stone hatchet</b> et <b>une stone pick axe</b>.\n\n <b>La wooden spear</b> vous sera forte utile pour partir faire votre première chasse (sangliers et poulets et cerfs pour le moment !)\n\n <b>La stone pick axe</b> ainsi que <b>la stone hatchet</b>, elles, vous serons indispensables pour les récoltes futures et ce, durant tout le jeu</string>
+
+
+    <!-- Fin de partie du guide 1 *********************************************************************************************************************************** -->
+
+    
+    <!-- Partie test conseil du prof listView as articles *********************************************************************************************************** -->
+
+    <string name="main2">Test horrible mais qui marche peut etre</string>
+    <string-array name="titles">
+        <item></item>
+        <item>Le site officiel de Rust - rustplay.com</item>
+        <item>#DevBlog 96 - Optimisations graphiques</item>
+        <item>La survie dans Rust - Youtube</item>
+        <item>La construction dans Rust - Youtube</item>
+        <item></item>
+    </string-array>
+    <string-array name="descriptions">
+        <item></item>
+        <item>Découvrez toutes les nouveautés du jeu Rust, les mises à jours, les forums de la communauté, les fan arts et bien d"'autres encore sur le site officiel dédié au jeu :\n\n<b>http://playrust.com</b>.</item>
+        <item>Dans ce nouveau DebBlog n°96, nous pouvons tout d"'abord trouver <b>une optimisation graphique des dungeons</b>.\n\nDe nouveaux items voient aussi le jour comme <b>la lampe murale</b>, mais aussi de nouveaux items corporels.</item>
+        <item>Vidéo Youtube de la chaine <b>JosInGame</b>, vous apprendrez ici comment survivre à votre première nuit dans le jeu mais aussi comment <b>bien débuter</b></item>
+        <item>Vidéo Youtube de la chaine <b>JosInGame</b>, cette fois-ci vous apprendrez comment construire votre première maison mais aussi comment <b>optimiser votre abris</b> pour le rendre moins vulnérable aux raids</item>
+        <item>© Copyright - Guide Rust 2016</item>
+    </string-array>
+    <string-array name="buttons">
+        <item>Accéder à notre guide complet</item>
+        <item>Accéder au site officiel de Rust</item>
+        <item>Voir cet article</item>
+        <item>Accéder au guide de survie en video</item>
+        <item>Accéder au guide de construction en video</item>
+        <item></item>
+    </string-array>
+
+    <!-- Fin de partie du test *********************************************************************************************************************************** -->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

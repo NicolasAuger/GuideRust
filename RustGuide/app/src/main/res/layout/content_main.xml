@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a"
+    android:onClick="OnDevBlogWebClick">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- Partie dédiée a l'accueil et au guide complet-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_accueil"
+                android:src="@drawable/rustmenu"
+                android:adjustViewBounds="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidecomplet_acces"
+                android:id="@+id/acces_guide_complet"
+                android:singleLine="true"
+                android:textColor="#dc5555"
+                android:background="#252525"
+                android:textSize="12dp"
+                android:padding="5dp"/>
+
+
+
+            <!-- Partie dédiée au site officiel hhtp://playrust.com -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/site_officiel_title"
+                android:id="@+id/site_officiel_title"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/image_site_officiel"
+                android:src="@drawable/header"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/site_officiel_description"
+                android:id="@+id/site_officiel_description"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/site_officiel_button"
+                android:id="@+id/site_officiel_button"
+                android:textSize="12dp"
+                android:textColor="#dc5555"
+                android:padding="5dp"
+                android:background="#252525"/>
+
+
+
+
+            <!-- Partie dédiée a l'article DevBlog -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/devblog_title"
+                android:id="@+id/devBlog_title"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/image_dev_blog"
+                android:src="@drawable/dev96"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/devblog_description_courte"
+                android:id="@+id/article_description"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_article"
+                android:id="@+id/detail_article_button"
+                android:textSize="12dp"
+                android:textColor="#dc5555"
+                android:padding="5dp"
+                android:background="#252525"/>
+
+
+
+            <!-- Partie dédiée au guide vidéo 1 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo1_title"
+                android:id="@+id/guidevideo1_title"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_guide1"
+                android:src="@drawable/accueil2"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo1_description"
+                android:id="@+id/guidevideo1_description"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo1_access"
+                android:id="@+id/access_guide1"
+                android:textSize="12dp"
+                android:textColor="#dc5555"
+                android:background="#252525"/>
+
+
+
+            <!-- Partie dédiée au guide vidéo 2 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo2_title"
+                android:id="@+id/guidevideo2_title"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_guide2"
+                android:src="@drawable/entre_bouton"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo2_description"
+                android:id="@+id/guidevideo2_description"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo2_access"
+                android:id="@+id/access_guide2"
+                android:singleLine="false"
+                android:textColor="#dc5555"
+                android:background="#252525"
+                android:textSize="12dp"/>
+
+
+
+            <!-- Partie dédiée au copyright -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_copyright"
+                android:adjustViewBounds="true"
+                android:src="@drawable/accueil3"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Copyright"
+                android:background="#252525"
+                android:padding="15dp"
+                android:text="@string/copyright"
+                android:textSize="12dp"
+                android:textColor="#dc5555"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

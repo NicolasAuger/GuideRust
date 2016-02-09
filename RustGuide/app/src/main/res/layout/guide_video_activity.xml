@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a"
+    android:measureWithLargestChild="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="@string/guidevideo_titre"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc5555"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guidevideo1"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubeplayerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btnviewfullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fullscreen"
+                android:background="#252525"
+                android:textColor="#dc5555" />
+
+           <TextView
+                 android:id="@+id/videolog"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:background="#252525"
+                android:textColor="#dc5555"
+                android:clickable="true"
+                android:onClick="OnBackButtonClick" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

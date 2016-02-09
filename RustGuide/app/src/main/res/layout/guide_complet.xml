@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Bloc top image + texte intro -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image1"
+                android:src="@drawable/accueil"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/presentation_guide1"
+                android:id="@+id/intro"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp" />
+
+            <!-- Bloc0 title + image + texte -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidecomplet_title0"
+                android:id="@+id/titre0"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="16dp"
+                android:background="#252525"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image2"
+                android:src="@drawable/guide"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texte_guide1_part0"
+                android:id="@+id/text_part0"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp" />
+
+
+            <!-- Bloc1 title + image + texte + image -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidecomplet_title1"
+                android:id="@+id/titre1"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="16dp"
+                android:background="#252525"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image3"
+                android:src="@drawable/guide6"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texte_guide1_part1"
+                android:id="@+id/text_part1"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image4"
+                android:src="@drawable/guide4"
+                android:adjustViewBounds="true" />
+
+            <!-- Bloc2 title + texte + image + texte + image + texte + image -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidecomplet_title2"
+                android:id="@+id/titre2"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="16dp"
+                android:background="#252525"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texte_guide1_part2_1"
+                android:id="@+id/text_part2_1"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image5"
+                android:src="@drawable/guide1"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texte_guide1_part2_2"
+                android:id="@+id/text_part2_2"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image6"
+                android:src="@drawable/guide12"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texte_guide1_part2_3"
+                android:id="@+id/text_part2_3"
+                android:textColor="#FFFFFF"
+                android:background="#252525"
+                android:padding="15dp"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image7"
+                android:src="@drawable/guide13"
+                android:adjustViewBounds="true"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
