@@ -50,60 +50,6 @@ public class MainActivity2 extends AppCompatActivity
         list = (ListView)findViewById(R.id.listView);
         AdapterMain adapter = new AdapterMain(this, articleTitles,images,articleDescriptions,buttonText);
         list.setAdapter(adapter);
-
-
-
-
-       /* access_guide1 = (Button)findViewById(R.id.access_guide1);
-        access_guide1.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(MainActivity2.this, GuideVideoActivity.class);
-                startActivity(i);
-            }
-        });
-
-        access_guide2 = (Button)findViewById(R.id.access_guide2);
-        access_guide2.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(MainActivity2.this, GuideVideoActivity2.class);
-                startActivity(i);
-            }
-        });
-
-        acces_guide_complet = (Button)findViewById(R.id.acces_guide_complet);
-        acces_guide_complet.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(MainActivity2.this,GuideCompletActivity.class );
-                startActivity(i);
-            }
-        });
-
-        detail_article_button = (Button)findViewById(R.id.detail_article_button);
-        detail_article_button.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(MainActivity2.this,DevBlogWebActivity.class );
-                startActivity(i);
-            }
-        });
-
-        site_officiel_button = (Button)findViewById(R.id.site_officiel_button);
-        site_officiel_button.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(MainActivity2.this, SiteOfficielActivity.class);
-                startActivity(i);
-            }
-        });*/
-
     }
 
 

@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="#2a2a2a"
-    android:onClick="OnDevBlogWebClick">
+    android:background="#2a2a2a">
+
 
     <ScrollView
         android:layout_width="match_parent"

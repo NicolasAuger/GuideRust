@@ -167,7 +167,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_game_description) {
 
         } else if (id == R.id.nav_a_propos) {
-
+            Intent i = new Intent(MainActivity.this, AboutUsActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_more){
             Intent i = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(i);

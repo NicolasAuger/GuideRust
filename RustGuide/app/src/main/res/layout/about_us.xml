@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Titre -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_equipe"
+                android:id="@+id/equipe_titre"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp" />
+
+
+            <!-- Personne 1 : nicolas -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageNico"
+                android:src="@drawable/nicolas"
+                android:layout_below="@+id/equipe_titre"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nicolas_title"
+                android:id="@+id/titleNicolas"
+                android:layout_below="@+id/equipe_titre"
+                android:layout_toRightOf="@+id/imageNico"
+                android:layout_toEndOf="@+id/imageNico"
+                android:textSize="16dp"
+                android:textColor="#DC5555"
+                android:background="#252525"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nicolas_description"
+                android:id="@+id/descriptionNicolas"
+                android:layout_below="@+id/titleNicolas"
+                android:layout_toRightOf="@+id/imageNico"
+                android:layout_toEndOf="@+id/imageNico"
+                android:layout_alignBottom="@+id/imageNico"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:background="#252525"
+                android:textSize="12dp" />
+
+
+
+            <!-- Personne 2 : lucas -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageLucas"
+                android:src="@drawable/lucas"
+                android:layout_below="@+id/imageNico"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lucas_title"
+                android:id="@+id/titleLucas"
+                android:layout_below="@+id/descriptionNicolas"
+                android:layout_toRightOf="@+id/imageLucas"
+                android:layout_toEndOf="@+id/imageLucas"
+                android:textSize="16dp"
+                android:textColor="#DC5555"
+                android:background="#252525"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lucas_description"
+                android:id="@+id/descriptionLucas"
+                android:layout_below="@+id/titleLucas"
+                android:layout_toRightOf="@+id/imageLucas"
+                android:layout_toEndOf="@+id/imageLucas"
+                android:layout_alignBottom="@+id/imageLucas"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:background="#252525"
+                android:textSize="12dp" />
+
+
+            <!-- Personne 3 : Dylan -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageDylan"
+                android:src="@drawable/dylan"
+                android:layout_below="@+id/imageLucas"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dylan_title"
+                android:id="@+id/titleDylan"
+                android:layout_below="@+id/descriptionLucas"
+                android:layout_toRightOf="@+id/imageDylan"
+                android:layout_toEndOf="@+id/imageDylan"
+                android:textSize="16dp"
+                android:textColor="#DC5555"
+                android:background="#252525"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dylan_description"
+                android:id="@+id/descriptionDylan"
+                android:layout_below="@+id/titleDylan"
+                android:layout_toRightOf="@+id/imageDylan"
+                android:layout_toEndOf="@+id/imageDylan"
+                android:layout_alignBottom="@+id/imageDylan"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:background="#252525"
+                android:textSize="12dp" />
+
+
+
+            <!-- Personne 4 : adrien -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageAdrien"
+                android:src="@drawable/adrien"
+                android:layout_below="@+id/imageDylan"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/adrien_title"
+                android:id="@+id/titleAdrien"
+                android:layout_below="@+id/descriptionDylan"
+                android:layout_toRightOf="@+id/imageAdrien"
+                android:layout_toEndOf="@+id/imageAdrien"
+                android:textSize="16dp"
+                android:textColor="#DC5555"
+                android:background="#252525"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/adrien_description"
+                android:id="@+id/descriptionAdrien"
+                android:layout_below="@+id/titleAdrien"
+                android:layout_toRightOf="@+id/imageAdrien"
+                android:layout_toEndOf="@+id/imageAdrien"
+                android:layout_alignBottom="@+id/imageAdrien"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:background="#252525"
+                android:textSize="12dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -109,6 +109,36 @@
     <!-- Fin de partie du test *********************************************************************************************************************************** -->
 
 
+
+
+
+
+    <!-- Partie activity du menu de gauche ************************************************************************************************************************ -->
+
+
+    <!-- Partie activity AboutUs -->
+    <string name="about_us_title">A propos de nous</string>
+    <string name="titre_equipe">Notre équipe de développement</string>
+
+    <string name="nicolas_title">Nicolas Auger</string>
+    <string name="nicolas_description">Nicolas, aussi surnomé coco ou encore le rageous est passioné de voyage, de musique et de jeux vidéos, il souhaite se diriger vers le développement de jeux. Souvent à côté de la plaque, son ami lucas sait toujours le remettre sur le droit chemin.</string>
+
+    <string name="lucas_title">Lucas Pozzer</string>
+    <string name="lucas_description">Lucas, popo ou monsieur kiki est un éternel emmerdeur consacrant son temps à faire péter un câble à ses voisins. Très apprécié de tout le monde, lucas ne sait pas ce qu"'il fait en informatique, mais possède un réel talent de développeur web.</string>
+
+    <string name="dylan_title">Dylan Chamoulaud</string>
+    <string name="dylan_description">Dylan, mais le plus souvent appelé Dolan, fait partie de la jacket volante et est un passioné de manga mais aussi de jeux de farming chinois. Toujours timide dylan code dans son coin avec facilité mais sait se rapprocher de ses amis au moment opportun. </string>
+
+    <string name="adrien_title">Adrien Cluzel</string>
+    <string name="adrien_description">Adrien, ou plutôt devrions nous dire Azca est un gamer de renommé qui aime par dessus tout faire le bonobo mais sait aussi être très compétant dans le développement informatique. Son plus grand talent reste indiscutablement le chant.</string>
+
+
+    <!-- Fin de partie activity menu de gauche ********************************************************************************************************************************** -->
+
+
+
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
