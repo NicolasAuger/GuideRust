@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Titre -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/map_title"
+                android:id="@+id/map_title"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mapImage1"
+                android:src="@drawable/map3"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/map_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <!-- Texte 1 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/map_text1"
+                android:id="@+id/map_text1"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:background="#252525"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <!-- Symbol 1 : LightHouse -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title1"
+                    android:id="@+id/mapSymbol_text1"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toRightOf="@+id/mapSymbol1"
+                    android:layout_toEndOf="@+id/mapSymbol1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text1"
+                    android:id="@+id/map_symbol_text1"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow1"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 2 : Cave -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol2"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title2"
+                    android:id="@+id/mapSymbol_text2"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text1"
+                    android:layout_toRightOf="@+id/mapSymbol2"
+                    android:layout_toEndOf="@+id/mapSymbol2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow2"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text2"
+                    android:id="@+id/map_symbol_text2"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow2"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 3 : Satellite Dish -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol3"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title3"
+                    android:id="@+id/mapSymbol_text3"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text2"
+                    android:layout_toRightOf="@+id/mapSymbol3"
+                    android:layout_toEndOf="@+id/mapSymbol3" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow3"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text3"
+                    android:id="@+id/map_symbol_text3"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow3"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 4 : Sphere Tank -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol4"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title4"
+                    android:id="@+id/mapSymbol_text4"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text3"
+                    android:layout_toRightOf="@+id/mapSymbol4"
+                    android:layout_toEndOf="@+id/mapSymbol4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow4"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text4"
+                    android:id="@+id/map_symbol_text4"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow4"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 5 : RadTown -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol5"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title5"
+                    android:id="@+id/mapSymbol_text5"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text4"
+                    android:layout_toRightOf="@+id/mapSymbol5"
+                    android:layout_toEndOf="@+id/mapSymbol5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow5"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text5"
+                    android:id="@+id/map_symbol_text5"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow5"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 6 : Nuclear PowerPlant -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol6"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title6"
+                    android:id="@+id/mapSymbol_text6"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text5"
+                    android:layout_toRightOf="@+id/mapSymbol6"
+                    android:layout_toEndOf="@+id/mapSymbol5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow6"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol6"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text6"
+                    android:id="@+id/map_symbol_text6"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow6"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 7 : TrainYard -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text6"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title7"
+                    android:id="@+id/mapSymbol_text7"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text6"
+                    android:layout_toRightOf="@+id/mapSymbol7"
+                    android:layout_toEndOf="@+id/mapSymbol6" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text7"
+                    android:id="@+id/map_symbol_text7"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow7"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 8 : Military Tunnel -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol8"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title8"
+                    android:id="@+id/mapSymbol_text8"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text7"
+                    android:layout_toRightOf="@+id/mapSymbol8"
+                    android:layout_toEndOf="@+id/mapSymbol7" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow8"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text8"
+                    android:id="@+id/map_symbol_text8"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow8"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 9 : Airdrop -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol9"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title9"
+                    android:id="@+id/mapSymbol_text9"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text8"
+                    android:layout_toRightOf="@+id/mapSymbol9"
+                    android:layout_toEndOf="@+id/mapSymbol8" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow9"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol9"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text9"
+                    android:id="@+id/map_symbol_text9"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow9"
+                    android:layout_marginBottom="5dp"/>
+
+                <!-- Symbol 10 : Hellicopter Attack-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbol10"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol10"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map_symbol_text9"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_title10"
+                    android:id="@+id/mapSymbol_text10"
+                    android:padding="12dp"
+                    android:textColor="#dc5555"
+                    android:textSize="13dp"
+                    android:background="#252525"
+                    android:textAlignment="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/map_symbol_text9"
+                    android:layout_toRightOf="@+id/mapSymbol10"
+                    android:layout_toEndOf="@+id/mapSymbol9" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapSymbolShow10"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map_symbol_show10"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbol10"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_symbol_text10"
+                    android:id="@+id/map_symbol_text10"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:background="#252525"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mapSymbolShow10"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

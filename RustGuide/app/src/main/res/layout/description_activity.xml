@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Titre -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_title"
+                android:id="@+id/description_title"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionImage1"
+                android:src="@drawable/description1"
+                android:adjustViewBounds="true" />
+
+            <!-- Texte 1 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_text1"
+                android:id="@+id/description_text1"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:background="#252525" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionImage2"
+                android:src="@drawable/description2"
+                android:adjustViewBounds="true" />
+
+            <!-- Texte 2 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_text2"
+                android:id="@+id/description_text2"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:background="#252525" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionImage3"
+                android:src="@drawable/description3"
+                android:adjustViewBounds="true" />
+
+            <!-- Texte 3 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_text3"
+                android:id="@+id/description_text3"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:background="#252525" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionImage4"
+                android:src="@drawable/description4"
+                android:adjustViewBounds="true" />
+
+            <!-- Texte 4 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_text4"
+                android:id="@+id/description_text4"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:background="#252525" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

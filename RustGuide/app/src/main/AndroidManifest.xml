@@ -84,6 +84,26 @@
 
         </activity>
 
+        <activity
+            android:name=".DescriptionActivity"
+            android:label="@string/description_header"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/map_header"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
     </application>
 
 </manifest>

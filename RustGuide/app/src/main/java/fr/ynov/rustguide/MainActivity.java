@@ -163,9 +163,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_tools) {
 
         } else if (id == R.id.nav_minimap) {
-
+            Intent i = new Intent(MainActivity.this, MapActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_game_description) {
-
+            Intent i = new Intent(MainActivity.this, DescriptionActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_a_propos) {
             Intent i = new Intent(MainActivity.this, AboutUsActivity.class);
             startActivity(i);
