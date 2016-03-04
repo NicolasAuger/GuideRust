@@ -22,6 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Guides -->
+
+
+        <activity
+            android:name=".GuideCompletActivity"
+            android:label="@string/guidecomplet"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
         <activity
             android:name=".GuideVideoActivity"
             android:label="@string/video_survie"
@@ -35,6 +49,9 @@
             android:theme="@style/AppTheme">
 
         </activity>
+
+
+        <!-- DevBlog + Site Officiel -->
         <activity
             android:name=".DevBlogWebActivity"
             android:label="@string/devblog95"
@@ -54,16 +71,7 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity
-            android:name=".GuideCompletActivity"
-            android:label="@string/guidecomplet"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-
-        </activity>
-
+    <!-- Activity menu de gauche -->
         <activity
             android:name=".MainActivity2"
             android:label="@string/main2"
@@ -103,6 +111,18 @@
                 android:value=".MainActivity" />
 
         </activity>
+
+        <activity
+            android:name=".WeaponActivity"
+            android:label="@string/weapon_header"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+
 
     </application>
 

@@ -115,6 +115,9 @@
 
     <!-- Partie activity du menu de gauche ************************************************************************************************************************ -->
 
+    <!-- Partie Activity Weapon -->
+    <string name="weapon_header">Les armes - Rust</string>
+    <string name="weapon_title">Liste complète des armes</string>
 
     <!-- Partie ctivity Map -->
     <string name="map_header">Map - Rust</string>
