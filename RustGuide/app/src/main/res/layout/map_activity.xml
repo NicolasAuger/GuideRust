@@ -28,7 +28,7 @@
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/mapImage1"
                 android:src="@drawable/map3"
@@ -84,7 +84,7 @@
                     android:layout_toEndOf="@+id/mapSymbol1" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow1"
                     android:adjustViewBounds="true"
@@ -136,7 +136,7 @@
                     android:layout_toEndOf="@+id/mapSymbol2" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow2"
                     android:adjustViewBounds="true"
@@ -188,7 +188,7 @@
                     android:layout_toEndOf="@+id/mapSymbol3" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow3"
                     android:adjustViewBounds="true"
@@ -240,7 +240,7 @@
                     android:layout_toEndOf="@+id/mapSymbol4" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow4"
                     android:adjustViewBounds="true"
@@ -292,7 +292,7 @@
                     android:layout_toEndOf="@+id/mapSymbol5" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow5"
                     android:adjustViewBounds="true"
@@ -344,7 +344,7 @@
                     android:layout_toEndOf="@+id/mapSymbol5" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow6"
                     android:adjustViewBounds="true"
@@ -396,7 +396,7 @@
                     android:layout_toEndOf="@+id/mapSymbol6" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow7"
                     android:adjustViewBounds="true"
@@ -448,7 +448,7 @@
                     android:layout_toEndOf="@+id/mapSymbol7" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow8"
                     android:adjustViewBounds="true"
@@ -500,7 +500,7 @@
                     android:layout_toEndOf="@+id/mapSymbol8" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow9"
                     android:adjustViewBounds="true"
@@ -552,7 +552,7 @@
                     android:layout_toEndOf="@+id/mapSymbol9" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/mapSymbolShow10"
                     android:adjustViewBounds="true"

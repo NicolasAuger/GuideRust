@@ -57,6 +57,8 @@
     <string name="developpeur">Nicolas / Lucas / Adrien  / Dylan \n\nVersion <b>1.0</b></string>
     <string name="join">Rejoignez la communauté Rust sur Steam</string>
 
+
+
     <!-- Partie dédiée au guide sur la survie (le premier) ********************************************************************************************************** -->
     <!-- Intro et partie 0 -->
     <string name="presentation_guide1">Voici la première partie du guide complet qui débutera avec votre première apparition dans le jeu, et se cloturera avant le début de la fabrication de votre première maison !\nVous-y apprendrez comment bien démarrer le jeu et surtout comment survivre aux premières hostilités qui vous attendent</string>
@@ -71,9 +73,18 @@
     <string name="guidecomplet_title2">2. Premiers crafts et premiers farms</string>
     <string name="texte_guide1_part2_1">La toute première chose que vous devez faire est de récolter <b>du wood (bois)</b> ainsi que <b>de la stone (pierre)</b>. Pour cela munissez vous de votre cailloux de départ et diriger vous vers un arbre ou une roche, puis cliquez avec votre souris (clic gauche) afin de commencer à récolter des ressources dans votre inventaire.</string>
     <string name="texte_guide1_part2_2">Les objets collectés peuvent être observés directement à l"’aide des info-bulles qui apparaissent en bas à droit de l"’écran,juste au dessus de vos barres d"'états vitales.\nElles sont aussi visible dans votre inventaire (tapez sur la touche "<b>Tab</b>") Mais tout d'abord, voyons de plus près cet inventaire !</string>
-    <string name="texte_guide1_part2_3">Une fois que vous avez récolté suffisament <b>de wood et de stones</b> à l"'aide de <b>votre caillou</b>, fabriquez vous dans un premier temps <b>une wooden spear</b>, <b>une stone hatchet</b> et <b>une stone pick axe</b>.\n\n <b>La wooden spear</b> vous sera forte utile pour partir faire votre première chasse (sangliers et poulets et cerfs pour le moment !)\n\n <b>La stone pick axe</b> ainsi que <b>la stone hatchet</b>, elles, vous serons indispensables pour les récoltes futures et ce, durant tout le jeu</string>
+    <string name="texte_guide1_part2_3">Une fois que vous avez récolté suffisament <b>de wood et de stones</b> à l"'aide de <b>votre caillou</b>, fabriquez vous dans un premier temps <b>une wooden spear</b>, <b>une stone hatchet</b> et <b>une stone pick axe</b>.\n\n <b>La wooden spear</b> vous sera forte utile pour partir faire votre première chasse (sangliers, poulets et cerfs pour le moment !)\n\n <b>La stone pick axe</b> ainsi que <b>la stone hatchet</b>, elles, vous serons indispensables pour les récoltes futures et ce, durant tout le jeu.\n\nEnfin, craftez vous un <b>arc / hunting bow</b> (x200 wood / x50 cloth) et des <b>flèches / arrow</b> (pour 4 fléche : x10 stone / x25 wood) afin de vous défendre contre les bêtes hostiles (loup et ours) mais aussi pour vous défendre contre les joueurs.</string>
 
-
+    <!-- Partie 3 -->
+    <string name="guidecomplet_title3">3. Premier camp (temporaire)</string>
+    <string name="texte_guide1_part3_1">Votre premier camp n\'est que temporaire, celui si vous permettra dans un premier temps d\'avoir un point de repère ainsi qu\'un point de respawn en cas de mort.
+        Il devra être composé d\'un <b>lit / sleeping bag</b> ( x30 cloth / x100 wood ), d\'un <b>feu de camp / camp fire</b> ( x100 wood ) et d\'une <b>caisse / wood storage</b> ( x100 wood ).\n\n
+        Ces trois éléments sont absolument nécessaire à votre survie, ne les négligez pas. Chacun d\'entre eux ont un système de menu en commun.\n\n
+        Pour accéder à ce système, il suffit de fixer l\'objet et de maintenir la touche E enfoncée.\n\n
+        Le <b>sleeping bad</b> vous permet de revivre à cet endroit si vous mourrez et peut constituer un véritable point de repère. En maintenant la touche E vous pouvez soit : renommer votre point de repère (cela peut l\'identifier dans le cas où vous en possédez plusieurs) ou l\'assigner à un ami donnant alors toutes les possibilités de revivre etc à cette personne.\n\n
+        Le <b>camp fire</b> vous permettra d\'améliorer votre confort mais aussi de cuir la viande que vous aurez trouvé durant votre chasse. La vie que vous aurez perdu remontera alors progressivement. En maintenant la touche E, vous pouvez soit éteindre ou allumer le feu, soit accéder à l\'inventaire de celui-ci (5 compartiments).\n\n
+        Enfin, le <b>wood storage</b> permettra simplement de stocker vos trouvailles de la journée. La caisse est très petite en volume il est donc nécessaire de ne pas traîner sur votre camp temporaire.</string>
+    
     <!-- Fin de partie du guide 1 *********************************************************************************************************************************** -->
 
     
@@ -113,13 +124,19 @@
 
 
 
+
+
+
+
     <!-- Partie activity du menu de gauche ************************************************************************************************************************ -->
+
 
     <!-- Partie Activity Weapon -->
     <string name="weapon_header">Les armes - Rust</string>
     <string name="weapon_title">Liste complète des armes</string>
 
-    <!-- Partie ctivity Map -->
+
+    <!-- Partie activity Map -->
     <string name="map_header">Map - Rust</string>
     <string name="map_title">Les maps sur Rust</string>
 
@@ -146,6 +163,8 @@
     <string name="map_symbol_text9">Lorsque le petit symbole vert s\'affiche, c\'est qu\'un avion s\'apprête à lâcher quelque part un <b>AirDrop</b>, c\'est une <b>grande caisse</b> pouvant contenir <b>armes, munitions ou autre stuff</b>.</string>
     <string name="map_symbol_title10">Helicopter Attack</string>
     <string name="map_symbol_text10">Si ce symbole rouge s\'affiche, il y a deux choses différentes possibles :\n\n1 : Si vous êtes d\'attaque, que vous êtes armés, <b>entièrement stuff et que vous êtes un joueur un minimum expérimenté</b>, vous pouvez tenter de trouver l\'hélicoptère et de l\'abattre mais cela est très compliqué car il inflige énormément de dégâts et il faut être très précis. De plus, sa puissance de feu est telle qu\'il peut aisément détruire votre base, alors ne l\'attaquez pas près de celle-ci. L\'avantage si vous réussissez à l\'abattre est qu\'il peut loot de nombreuses armes différentes dont <b>l\'Aka-47</b>.\n\n2 : Si vous êtes <b>débutant ou inexpérimenté ou encore non stuff au maximum</b>, cachez-vous et surtout ne l\'attaquez <b>sous aucun prétexte</b>.</string>
+
+
 
     <!-- Partie activity Description -->
     <string name="description_header">Description du jeu Rust</string>

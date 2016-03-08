@@ -31,27 +31,166 @@
                 android:textAlignment="center"
                 android:layout_marginBottom="10dp" />
 
+            <!-- Assault Rifle -->
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/assaultRiflePl"
                 android:src="@drawable/assault_rifle_pl"
                 android:adjustViewBounds="true" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/assaultRifleGl"
                 android:src="@drawable/assault_rifle_gl"
                 android:adjustViewBounds="true"
                 android:visibility="gone" />
 
+            <!-- Bolt Action Rifle -->
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/assaultRifleGl2"
-                android:src="@drawable/assault_rifle_pl2"
+                android:id="@+id/boltActionRiflePl"
+                android:src="@drawable/bolt_action_rifle_pl"
                 android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/boltActionRifleGl"
+                android:src="@drawable/bolt_action_rifle_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Crossbow -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/crossbowPl"
+                android:src="@drawable/crossbow_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/crossbowGl"
+                android:src="@drawable/crossbow_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Custom SMG -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/customSmgPl"
+                android:src="@drawable/custom_smg_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/customSmgGl"
+                android:src="@drawable/custom_smg_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- M249 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m249Pl"
+                android:src="@drawable/m249_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m249Gl"
+                android:src="@drawable/m249_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Pump Shotgun -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pumpShotgunPl"
+                android:src="@drawable/pump_shotgun_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pumpShotgunGl"
+                android:src="@drawable/pump_shotgun_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Revolver -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/revolverPl"
+                android:src="@drawable/revolver_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/revolverGl"
+                android:src="@drawable/revolver_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Rocket Launcher -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rocketLauncherPl"
+                android:src="@drawable/rocket_launcher_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rocketLauncherGl"
+                android:src="@drawable/rocket_launcher_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Semi Automatic Rifle -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/semiAutomaticRiflePl"
+                android:src="@drawable/semi_automatic_rifle_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/semiAutomaticRifleGl"
+                android:src="@drawable/semi_automatic_rifle_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Thompson -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thompsonPl"
+                android:src="@drawable/thompson_pl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thompsonGl"
+                android:src="@drawable/thompson_gl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
 
 
         </LinearLayout>
