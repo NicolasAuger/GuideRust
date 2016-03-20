@@ -52,11 +52,10 @@
     <string name="fullscreen">Voir en plein écran</string>
     <string name="back">Retour</string>
 
-   <!-- Copyright -->
+    <!-- Copyright -->
     <string name="copyright">© Copyright - Guide Rust 2016"</string>
     <string name="developpeur">Nicolas / Lucas / Adrien  / Dylan \n\nVersion <b>1.0</b></string>
     <string name="join">Rejoignez la communauté Rust sur Steam</string>
-
 
 
     <!-- Partie dédiée au guide sur la survie (le premier) ********************************************************************************************************** -->
@@ -87,7 +86,7 @@
 
     <!-- Fin de partie du guide 1 *********************************************************************************************************************************** -->
 
-    
+
     <!-- Partie test conseil du prof listView as articles *********************************************************************************************************** -->
 
     <string name="main2">ListView/Adapter (non bindée)</string>
@@ -120,20 +119,16 @@
     <!-- Fin de partie du test *********************************************************************************************************************************** -->
 
 
-
-
-
-
-
-
-
-
     <!-- Partie activity du menu de gauche ************************************************************************************************************************ -->
 
 
     <!-- Partie Activity Weapon -->
     <string name="weapon_header">Les armes - Rust</string>
     <string name="weapon_title">Liste complète des armes</string>
+
+    <!-- Partie Activity Ressources -->
+    <string name="ressources_header">Les ressources - Rust</string>
+    <string name="ressources_title">Liste complète des ressources</string>
 
 
     <!-- Partie activity Map -->
@@ -165,7 +160,6 @@
     <string name="map_symbol_text10">Si ce symbole rouge s\'affiche, il y a deux choses différentes possibles :\n\n1 : Si vous êtes d\'attaque, que vous êtes armés, <b>entièrement stuff et que vous êtes un joueur un minimum expérimenté</b>, vous pouvez tenter de trouver l\'hélicoptère et de l\'abattre mais cela est très compliqué car il inflige énormément de dégâts et il faut être très précis. De plus, sa puissance de feu est telle qu\'il peut aisément détruire votre base, alors ne l\'attaquez pas près de celle-ci. L\'avantage si vous réussissez à l\'abattre est qu\'il peut loot de nombreuses armes différentes dont <b>l\'Aka-47</b>.\n\n2 : Si vous êtes <b>débutant ou inexpérimenté ou encore non stuff au maximum</b>, cachez-vous et surtout ne l\'attaquez <b>sous aucun prétexte</b>.</string>
 
 
-
     <!-- Partie activity Description -->
     <string name="description_header">Description du jeu Rust</string>
     <string name="description_title">Qu"'est ce que Rust ?</string>
@@ -174,8 +168,6 @@
     <string name="description_text2">Pour survivre dans Rust vous avez la possibilité de choisir de travailler avec vos amis ou avec des étrangers, pour récupérer des fournitures et construire des bases gigantesques, ou bien vous jouez seul afin de tuer les autres joueurs pour récupérer leur butin !</string>
     <string name="description_text3">Rust vise à être un jeu qui donne aux joueurs la liberté de jouer comme ils le souhaitent et qui n’implique pas de système de héros ou de bandit. Avec Rust, vous devrez utiliser votre instinct de survie et apprendre à ne pas faire confiance à n’importe qui !</string>
     <string name="description_text4">Rust est développé sous le moteur Unity. Le jeu est disponible sur Steam à 18,99 euros. </string>
-
-
 
 
     <!-- Partie activity AboutUs -->
@@ -198,11 +190,13 @@
     <!-- Fin de partie activity menu de gauche ********************************************************************************************************************************** -->
 
 
-
-
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_ressources">RessourcesActivity</string>
+    <string name="tools_title">Liste complète des outils</string>
+    <string name="tools_header">Les outils - Rust</string>
+    <string name="ammo_header">Les munitions - Rust</string>
+    <string name="ammo_title">Liste complète des munitions</string>
 </resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a"
+    android:animateLayoutChanges="true">
+    <!--android:transitionGroup="true"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true">
+
+            <!-- Titre -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ammo_title"
+                android:id="@+id/weapon_title"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Assault Rifle -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrowPl"
+                android:src="@drawable/arrow"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrowGl"
+                android:src="@drawable/arrow1"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Bolt Action Rifle -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/higharrowPl"
+                android:src="@drawable/higharrowv2"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/higharrowGl"
+                android:src="@drawable/higharrow1v2"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Crossbow -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rocketPl"
+                android:src="@drawable/rocket"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rocketGl"
+                android:src="@drawable/rocket1"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Custom SMG -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bulletPl"
+                android:src="@drawable/bulletv2"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bulletGl"
+                android:src="@drawable/bullet1v2"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- M249 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gaugePl"
+                android:src="@drawable/gauge"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gaugeGl"
+                android:src="@drawable/gauge1"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Pump Shotgun -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/slugPl"
+                android:src="@drawable/slugv2"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/slugGl"
+                android:src="@drawable/slug1v2"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Revolver -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/riflePl"
+                android:src="@drawable/rifle"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rifleGl"
+                android:src="@drawable/rifle1"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Rocket Launcher -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/explosivePl"
+                android:src="@drawable/explosivev2"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/explosiveGl"
+                android:src="@drawable/explosive1v2"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Semi Automatic Rifle -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shellPl"
+                android:src="@drawable/shell"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shellGl"
+                android:src="@drawable/shell1"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Thompson -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thompsonPl"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thompsonGl"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
