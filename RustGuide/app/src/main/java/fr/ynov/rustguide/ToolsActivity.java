@@ -46,43 +46,44 @@ public class ToolsActivity extends AppCompatActivity {
 
         // ***********************   Assignation des petits layouts + méthodes onClick() pour changer la visibilité des grands layouts *******************************************
 
-        //Rock
+        //Assault Rifle
         rock_p = (ImageView) findViewById(R.id.rock_p);
         ajoutImage(rock_p,rock_g);
 
-        // Torch
+        // Bolt Action Rifle
         torch_p = (ImageView) findViewById(R.id.torch_p);
         ajoutImage(torch_p, torch_g);
 
-        // Stone Hatchet
+        // Crossbow
         stone_hatchet_p = (ImageView) findViewById(R.id.stone_hatchet_p);
         ajoutImage(stone_hatchet_p, stone_hatchet_g);
 
-        // Stone Pick Axe
+        // Custom SMG
         stone_pick_axe_p = (ImageView) findViewById(R.id.stone_pick_axe_p);
         ajoutImage(stone_pick_axe_p,stone_pick_axe_g);
 
-        // Hatchet
+        // M249
         hatchet_p = (ImageView) findViewById(R.id.hatchet_p);
         ajoutImage(hatchet_p,hatchet_g);
 
-        // Pick Axe
+        // Pump Shotgun
         pick_axe_p = (ImageView) findViewById(R.id.pick_axe_p);
         ajoutImage(pick_axe_p,pick_axe_g);
 
-        // Salvaged Axe
+        // Revolver
         salvaged_axe_p = (ImageView) findViewById(R.id.salvaged_axe_p);
         ajoutImage(salvaged_axe_p,salvaged_axe_g);
 
-        // Salvaged Ice Pick
+        // Rocket Launcher
         salvaged_icepick_p = (ImageView) findViewById(R.id.salvaged_icepick_p);
         ajoutImage(salvaged_icepick_p,salvaged_icepick_g);
 
-        // Salvaged Hammer
+        // Semi Automatic Rifle
         salvaged_hammer_p = (ImageView) findViewById(R.id.salvaged_hammer_p);
         ajoutImage(salvaged_hammer_p,salvaged_hammer_g);
 
-        // Hammer
+        // Thompson
+
         hammer_p = (ImageView) findViewById(R.id.hammer_p);
         ajoutImage(hammer_p,hammer_g);
 
