@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ammo_header">Les munitions - Rust</string>
+    <string name="ammo_title">Liste complète des munitions</string>
+</resources>
