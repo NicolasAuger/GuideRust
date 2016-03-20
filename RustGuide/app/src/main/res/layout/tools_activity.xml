@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2a2a2a"
+    android:animateLayoutChanges="true">
+    <!--android:transitionGroup="true"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true">
+
+            <!-- Titre -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tools_title"
+                android:id="@+id/tools_title"
+                android:padding="10dp"
+                android:textColor="#dc5555"
+                android:textSize="18dp"
+                android:background="#252525"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp" />
+
+            <!-- rock -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rock_p"
+                android:src="@drawable/rock_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rock_g"
+                android:src="@drawable/rock_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- torch -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/torch_p"
+                android:src="@drawable/torch_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/torch_g"
+                android:src="@drawable/torch_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- stone hatchet -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stone_hatchet_p"
+                android:src="@drawable/stone_hatchet_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stone_hatchet_g"
+                android:src="@drawable/stone_hatchet_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- stone pick axe -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stone_pick_axe_p"
+                android:src="@drawable/stone_pick_axe_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stone_pick_axe_g"
+                android:src="@drawable/stone_pick_axe_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+
+
+            <!--hatchet -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hatchet_p"
+                android:src="@drawable/hatchet_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hatchet_g"
+                android:src="@drawable/hatchet_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- pick axe -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pick_axe_p"
+                android:src="@drawable/pick_axe_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pick_axe_g"
+                android:src="@drawable/pick_axe_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Salvaged axe -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salvaged_axe_p"
+                android:src="@drawable/salvaged_axe_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salvaged_axe_g"
+                android:src="@drawable/salvaged_axe_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Salvaged icepick -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salvaged_icepick_p"
+                android:src="@drawable/salvaged_icepick_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salvaged_icepick_g"
+                android:src="@drawable/salvaged_icepick_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <!-- Salvaged hammer -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salvaged_hammer_p"
+                android:src="@drawable/salvaged_hammer_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salvaged_hammer_g"
+                android:src="@drawable/salvaged_hammer_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+
+
+            <!-- Hammer -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hammer_p"
+                android:src="@drawable/hammer_p"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hammer_g"
+                android:src="@drawable/hammer_g"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
