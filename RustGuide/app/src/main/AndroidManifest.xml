@@ -102,6 +102,14 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".AmmoActivity"
+            android:label="@string/ammo_header"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".RessourcesActivity"
             android:label="@string/ressources_header"
             android:theme="@style/AppTheme">
