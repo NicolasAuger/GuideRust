@@ -195,4 +195,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_ressources">RessourcesActivity</string>
+    <string name="tools_title">Liste complète des outils</string>
+    <string name="tools_header">Les outils - Rust</string>
 </resources>
