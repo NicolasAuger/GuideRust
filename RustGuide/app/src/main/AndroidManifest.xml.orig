@@ -101,15 +101,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+<<<<<<< HEAD
+
         <activity
             android:name=".AmmoActivity"
             android:label="@string/ammo_header"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-
-        </activity>
+=======
         <activity
             android:name=".RessourcesActivity"
             android:label="@string/ressources_header"
@@ -118,17 +115,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".ToolsActivity"
             android:label="@string/tools_header"
+>>>>>>> master
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+<<<<<<< HEAD
+
         </activity>
 
 
+
+=======
+        </activity>
+>>>>>>> master
     </application>
 
 </manifest>

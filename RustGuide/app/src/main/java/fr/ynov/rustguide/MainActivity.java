@@ -144,12 +144,14 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this, WeaponActivity.class);
             startActivity(i);
         } else if (id == R.id.nav_resource) {
-
+            Intent i = new Intent(MainActivity.this, RessourcesActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_ammunition) {
             Intent m = new Intent(MainActivity.this, AmmoActivity.class);
             startActivity(m);
         } else if (id == R.id.nav_tools) {
-
+            Intent i = new Intent(MainActivity.this, ToolsActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_minimap) {
             Intent i = new Intent(MainActivity.this, MapActivity.class);
             startActivity(i);
