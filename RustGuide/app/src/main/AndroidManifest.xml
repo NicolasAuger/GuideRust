@@ -25,7 +25,6 @@
 
         <!-- Guides -->
 
-
         <activity
             android:name=".GuideCompletActivity"
             android:label="@string/guidecomplet"
@@ -33,23 +32,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".GuideVideoActivity"
             android:label="@string/video_survie"
-            android:theme="@style/AppTheme">
-
-
-        </activity>
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".GuideVideoActivity2"
             android:label="@string/video_build"
-            android:theme="@style/AppTheme">
-
-        </activity>
-
+            android:theme="@style/AppTheme"></activity>
 
         <!-- DevBlog + Site Officiel -->
         <activity
@@ -59,9 +50,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".SiteOfficielActivity"
             android:label="@string/site_officiel_header"
@@ -71,7 +60,7 @@
                 android:value=".MainActivity" />
         </activity>
 
-    <!-- Activity menu de gauche -->
+        <!-- Activity menu de gauche -->
         <activity
             android:name=".MainActivity2"
             android:label="@string/main2"
@@ -79,9 +68,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".AboutUsActivity"
             android:label="@string/about_us_title"
@@ -89,9 +76,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".DescriptionActivity"
             android:label="@string/description_header"
@@ -99,9 +84,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".MapActivity"
             android:label="@string/map_header"
@@ -109,9 +92,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".WeaponActivity"
             android:label="@string/weapon_header"
@@ -119,11 +100,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
-
-
+        <activity
+            android:name=".RessourcesActivity"
+            android:label="@string/ressources_header"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

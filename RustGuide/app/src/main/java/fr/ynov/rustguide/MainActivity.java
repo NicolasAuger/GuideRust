@@ -158,7 +158,8 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this, WeaponActivity.class);
             startActivity(i);
         } else if (id == R.id.nav_resource) {
-
+            Intent i = new Intent(MainActivity.this, RessourcesActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_ammunition) {
 
         } else if (id == R.id.nav_tools) {
